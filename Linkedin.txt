@@ -1,0 +1,32 @@
+🚗 Excited to share my latest Computer Vision project!
+
+I built a Vehicle Detection & Red Light Violation System using YOLOv8 and OpenCV that automatically detects vehicles running red lights in traffic footage.
+
+🔧 Tech Stack:
+- Python
+- YOLOv8 (Ultralytics)
+- OpenCV
+- NumPy
+
+✨ Key Features:
+- Real-time vehicle detection and tracking using YOLO object detection
+- Automated red light violation detection based on stop line crossing
+- Flashing visual alerts for violating vehicles
+- Automatic cropping and saving of violation evidence
+- Annotated output video with bounding boxes and violation count
+
+🎯 How It Works:
+1. The system tracks vehicles frame-by-frame using YOLOv8
+2. A virtual stop line is defined in the camera's field of view
+3. When the traffic signal turns red, any vehicle crossing the stop line is flagged as a violation
+4. Violating vehicles get a flashing red box with "VIOLATION!" text
+5. Cropped images are automatically saved as evidence
+
+📊 Results:
+- Successfully detected 18 violations in a sample traffic video
+- Processes video at ~5 FPS with annotation overlay
+- Generates evidence images automatically
+
+🔗 This project demonstrates practical applications of deep learning in traffic monitoring and could be extended for real-world smart city implementations.
+
+#ComputerVision #DeepLearning #YOLOv8 #OpenCV #Python #MachineLearning #TrafficMonitoring #ObjectDetection #AI #SmartCity
