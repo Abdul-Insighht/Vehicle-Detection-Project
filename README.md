@@ -15,6 +15,12 @@ This project detects vehicles in a video stream and automatically flags **red li
 
 <img width="1558" height="869" alt="image" src="Screenshot.png" />
 
+### 🎥 Output Video
+
+The processed output video with red light violation annotations is available at:
+- `Annotated_Video.mp4` (5.4 MB)
+- `violations/` - Contains cropped images of detected violating vehicles
+
 ---
 
 ## 📂 Project Structure
